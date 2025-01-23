@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+IN:wght@100..400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="Assets/favicon-32x32(1).png">
+    <link rel="stylesheet" href="Assets/favicon-32x32(1).png" />
     <script src="https://cdn.tailwindcss.com/"></script>
     <link
       rel="shortcut icon"
@@ -40,7 +40,8 @@
   <body class="font-Inter">
     <!-- nav -->
     <nav
-      class="container mx-auto p-[20px] lg:py-[58px] lg:px-[50px] flex justify-between items-center">
+      class="container mx-auto p-[20px] lg:py-[58px] lg:px-[50px] flex justify-between items-center"
+    >
       <div>
         <img src="assets/logo.svg" alt="nav-logo" />
       </div>
@@ -53,23 +54,47 @@
         <li class="hover:text-softRed cursor-pointer">Categories</li>
       </ul>
       <!-- menu-img -->
-       <div class="md:hidden">
-        <img src="Assets/icon-menu.svg" alt="menu-icon">
-       </div>
+      <div class="md:hidden">
+        <img src="Assets/icon-menu.svg" alt="menu-icon" />
+      </div>
     </nav>
     <!-- main -->
-     <main>
-        <!-- main-section -->
-         <section>
-            <!-- section-1 -->
-             <section>
-
-             </section>
-             <!-- section-2 -->
-              <section>
-                
-              </section>
-         </section>
-     </main>
+    <main class="container mx-auto p-[20px] lg:py-[58px] lg:px-[50px]">
+      <!-- main-section -->
+      <section class="lg:grid grid-cols-3 gap-12">
+        <!-- section-1 -->
+        <section class="col-span-2">
+          <!-- div-1 -->
+          <div>
+            <img
+              src="Assets/image-web-3-desktop.jpg"
+              alt="image-web-3-desktop"
+              class="hidden md:block"
+            />
+            <img
+              src="Assets/image-web-3-mobile.jpg"
+              alt="image-web-3-mobile"
+              class="md:hidden"
+            />
+          </div>
+          <!-- div-2 -->
+          <div class="lg:grid grid-cols-2">
+            <h1 class="font-[800] text-[32px] md:text-[50px]">The Bright Future of Web 3.0?</h1>
+            <div>
+              <p>
+                We dive into the next evolution of web that claims to put the
+                power of the platforms back into the hands of the people. But is
+                it really fulfilling its promise?
+              </p>
+              <button>READ MORE</button>
+            </div>
+          </div>
+        </section>
+        <!-- section-2 -->
+        <section class="bg-veryDarkBlue">
+            <p class="text-offWhite">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nihil blanditiis? Placeat blanditiis odio voluptas officia totam sed pariatur quos minus quidem laborum accusamus ipsa temporibus quas, quasi perferendis sunt libero obcaecati illo tenetur aliquid. Est molestias, voluptatibus, nostrum quidem quibusdam, error doloribus vitae accusantium tenetur architecto reiciendis sunt corporis.</p>
+        </section>
+      </section>
+    </main>
   </body>
 </html>
