@@ -1,39 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+IN:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Assets/favicon-32x32(1).png">
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <link
+      rel="shortcut icon"
+      href="assets/favicon-32x32 7.png"
+      type="image/x-icon"
+    />
+    <title>News || page</title>
     <script>
-        tailwind.config={
-            theme:{
-                extend:{
-                    colors:{
-                        grayishBlue:"hsl(233, 8%, 79%)",
-                        SoftBrange:"hsl(35, 77%, 62%)",
-                        SoftRed:"hsl(5, 85%, 63%)",
-                        OffWhite:"hsl(36, 100%, 99%)",
-                        DarkGrayishBlue:"hsl(236, 13%, 42%)",
-                        VeryDarkBlue:"hsl(240, 100%, 5%)"
-                    },
-                    fontFamily:{
-                        Inter:['"Inter",serif']
-                    }
-                }
-            }
-        }
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              grayishBlue: "hsl(233, 8%, 79%)",
+              softBrange: "hsl(35, 77%, 62%)",
+              softRed: "hsl(5, 85%, 63%)",
+              offWhite: "hsl(36, 100%, 99%)",
+              darkGrayishBlue: "hsl(236, 13%, 42%)",
+              veryDarkBlue: "hsl(240, 100%, 5%)",
+            },
+            fontFamily: {
+              Inter: ['"Inter", serif'],
+            },
+          },
+        },
+      };
     </script>
-    <title>News || Page</title>
-</head>
-<body class="font-Inter">
-    <!-- Nav -->
-     <nav class="container mx-auto p-[20px] lg:py-[58px] lg:px-[140px]">
-        <div>
-            <img src="Assets/logo.svg" alt="logo">
-        </div>
-     </nav>
-</body>
+  </head>
+  <body class="font-Inter">
+    <!-- nav -->
+    <nav
+      class="container mx-auto p-[20px] lg:py-[58px] lg:px-[50px] flex justify-between items-center">
+      <div>
+        <img src="assets/logo.svg" alt="nav-logo" />
+      </div>
+      <!-- nav-items -->
+      <ul class="hidden md:flex gap-12 font-[400] text-darkGrayishBlue">
+        <li class="hover:text-softRed cursor-pointer">Home</li>
+        <li class="hover:text-softRed cursor-pointer">New</li>
+        <li class="hover:text-softRed cursor-pointer">Popular</li>
+        <li class="hover:text-softRed cursor-pointer">Trending</li>
+        <li class="hover:text-softRed cursor-pointer">Categories</li>
+      </ul>
+      <!-- menu-img -->
+       <div class="md:hidden">
+        <img src="Assets/icon-menu.svg" alt="menu-icon">
+       </div>
+    </nav>
+    <!-- main -->
+     <main>
+        <!-- main-section -->
+         <section>
+            <!-- section-1 -->
+             <section>
+
+             </section>
+             <!-- section-2 -->
+              <section>
+                
+              </section>
+         </section>
+     </main>
+  </body>
 </html>
